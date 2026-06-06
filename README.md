@@ -84,3 +84,10 @@ GROUP BY Date;
 ## ⚖️ Comparativa: SQL vs Spark
 - **SQL**: Facilidad de uso, expresividad declarativa, excelente integración con herramientas BI. Puede ser limitado para pipelines muy complejos o funciones personalizadas (UDFs) avanzadas.
 - **Spark (PySpark)**: Alta escalabilidad, APIs ricas (DataFrame, RDD), permite integrar Machine Learning y control detallado del rendimiento, aunque la curva de aprendizaje es más pronunciada.
+
+### 4. Ejecución del Entry Point
+Para probar el pipeline completo localmente o en tu entorno de desarrollo, el repositorio incluye un archivo principal:
+```bash
+python main.py
+```
+Este script inicia una `SparkSession`, define el esquema, genera datos de prueba (en caso de no estar conectado a DBFS) y ejecuta las validaciones tanto en sintaxis nativa de PySpark como en SQL.
