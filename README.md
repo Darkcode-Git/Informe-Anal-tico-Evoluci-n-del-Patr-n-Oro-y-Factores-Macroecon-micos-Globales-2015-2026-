@@ -1,0 +1,2 @@
+# Informe-Anal-tico-Evoluci-n-del-Patr-n-Oro-y-Factores-Macroecon-micos-Globales-2015-2026-
+En el actual paradigma complejo del Big Data, la gestión de información financiera requiere herramientas que superen la capacidad de los sistemas tradicionales para manejar el volumen, velocidad y variedad de los datos. Este informe analiza un arreglo de datos estructurado que abarca series de tiempo desde el año 2015 hasta proyecciones de 2026
